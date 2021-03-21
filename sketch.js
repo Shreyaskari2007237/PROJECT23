@@ -9,10 +9,10 @@ var bottomGrass1;
 
 function preload()
 {
- carAnimation1=loadAnimation("car1.png");
- carAnimation2=loadAnimation("car2.png");
- playerAnimation=loadAniamtion("player-03.png");
- logAnimation=loadAnimation("log2.png");
+ carAnimation1=loadAnimation("images/car1.png");
+ carAnimation2=loadAnimation("images/car2.png");
+ playerAnimation=loadAniamtion("images/player-03.png");
+ logAnimation=loadAnimation("images/log2.png");
 
 }
 
