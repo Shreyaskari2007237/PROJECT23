@@ -11,7 +11,7 @@ function preload()
 {
  carAnimation1=loadAnimation("images/car1.png");
  carAnimation2=loadAnimation("images/car2.png");
- playerAnimation=loadAniamtion("images/player-03.png");
+ playerAnimation=loadAniamtion("images/Player-03.png");
  logAnimation=loadAnimation("images/log2.png");
 
 }
@@ -91,13 +91,13 @@ function keyPressed(){
   if(keyCode==UP_ARROW){
     player.move(0,-2);
   }
-if(keyCode==DOWN_ARROW){
+else if(keyCode==DOWN_ARROW){
   player.move(0,2);
 }
-if(keyCode==LEFT_ARROW){
+else if(keyCode==LEFT_ARROW){
   player.move(-2,0);
 }
-if(keyCode==RIGHT_ARROW){
+else if(keyCode==RIGHT_ARROW){
   player.move(2,0);
 }
 
